@@ -1,9 +1,9 @@
 
-## NodeJS server-side JavaScript environment
+# NodeJS server-side JavaScript environment
 
 Event-driven I/O server-side JavaScript environment based on V8. Includes API documentation, change-log, examples and announcements.
 
-### Sample pillar
+## Sample pillar
 
 		nodejs:
 		  server: 
@@ -16,6 +16,6 @@ Event-driven I/O server-side JavaScript environment based on V8. Includes API do
 		    enabled: true
 		    environment: dev
 		    
-### Read more
+## Read more
 
 * http://nodejs.org/
