@@ -5,17 +5,17 @@ Event-driven I/O server-side JavaScript environment based on V8. Includes API do
 
 ## Sample pillar
 
-		nodejs:
-		  server: 
-		    enabled: true
+    nodejs:
+      environment: 
+        enabled: true
 
-### Sample pillar for dev
+### Sample pillar for development
 
-		nodejs:
-		  server: 
-		    enabled: true
-		    environment: dev
-		    
+    nodejs:
+      environment: 
+        enabled: true
+        development: true
+        
 ## Read more
 
 * http://nodejs.org/
