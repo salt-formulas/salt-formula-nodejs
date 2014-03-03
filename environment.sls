@@ -10,7 +10,6 @@ nodejs_packages:
   - installed
   - names:
     - nodejs
-    - npm
   {%- if grains.os == 'Ubuntu' %}
   - require:
     - pkgrepo: nodejs_ppa
