@@ -10,6 +10,9 @@ nodejs_packages:
   - installed
   - names:
     - nodejs
+  {%- if pillar.nodejs.environment.get("development", false) == true %}
+    - npm
+  {%- endif %}
   {%- if grains.os == 'Ubuntu' %}
   - require:
     - pkgrepo: nodejs_ppa
