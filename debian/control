@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/tcpcloud/salt-formula-nodejs.git
 
 Package: salt-formula-nodejs
 Architecture: all
-Depends: ${misc:Depends}, salt-master, reclass
+Depends: ${misc:Depends}
 Description: nodejs salt formula
  Configure nodejs system.
